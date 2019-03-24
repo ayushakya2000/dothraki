@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  Dothraki Translator using API
+  <h1 align="center">Dothraki Translator using FunAPI</h1>
   <title>Dothraki Translator</title>
 </head>
 <body>
-  <form id="form" action="/">
-    Input English Text: <input type="text" name=eng>
+  <form>
+    Input English Text: <input type="text" id="formtext">
 
   </form>
-  <button id="submission" onclick="run()">to Dothraki</button>
-  Translated :
-  <p id="translation">...</p>
 
+  <br>
+  <button id="submission" onclick="run()">to Dothraki</button>
+  <br>
+  <br>
+  <h3>Translated :</h3>
+  <h5><p id="translation">...</p></h5>
+  <br>
+  <h3>Times Translated:</h3>
+  <h5><p id="times"></p></h5>
   <script src="serxml.js"></script>
 
 </body>
